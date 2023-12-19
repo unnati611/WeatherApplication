@@ -1,0 +1,44 @@
+body .container {
+    background: rgb(243, 245, 247);
+}
+
+.container {
+    width: 100%;
+}
+
+nav {
+    background-color: rgb(167, 201, 184);
+}
+
+.head {
+    color: green;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.searchitems {
+    position: absolute;
+    right: 100px;
+    background-color: rgb(243, 245, 247);
+    color: green;
+    width: 200px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.itemname {
+    border-bottom: .5px solid rgb(69, 67, 67);
+
+}
+
+.itemname h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.itemname h4:hover {
+    background-color: green;
+    color: rgb(243, 245, 247);
+}
